@@ -1,11 +1,13 @@
 body {
-	font-family: Helvetica, Verdana, sans-serif;
+	font-family: Courier New, Verdana, Helvetica, sans-serif;
 }
-a,a:link,a:visited,a:hover {
-	color: rgb(202,16,0)
+a, a:link, a:visited, a:hover {
+	color: rgb(202,16,0);
+	text-decoration: none;
 }
 a:hover {
-	color: rgb(250,0,0)
+	color: rgb(250,0,0);
+	text-decoration: underline;
 }
 .content {
 	width: 800px;
@@ -29,28 +31,31 @@ a:hover {
 }
 .contacts dt {
 	font-weight: bold;
-	color: rgb(0,92,128);
 }
 .contacts dt:after {
 	content: ":";
 }
 .contacts dd:after {
 	content: " // ";
+	color: #888;
 }
 .contacts dd:last-child:after {
 	content: "";
 }
 ul.facts {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 ul.facts li {
-  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-  border-bottom: 1px solid #ccc;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 16px;
+	line-height: 1.5;
+	border-bottom: 1px solid #ddd;
 }
  
 ul.facts li:last-child {
-  border: none;
+	border: none;
 }
 
