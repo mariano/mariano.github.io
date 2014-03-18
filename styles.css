@@ -7,6 +7,11 @@ a,a:link,a:visited,a:hover {
 a:hover {
 	color: rgb(250,0,0)
 }
+.content {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
 .header {
 	text-align: center;
 }
@@ -35,18 +40,17 @@ a:hover {
 .contacts dd:last-child:after {
 	content: "";
 }
-.facts ul {
+ul.facts {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
-li {
+ul.facts li {
   font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
   border-bottom: 1px solid #ccc;
 }
  
-li:last-child {
+ul.facts li:last-child {
   border: none;
 }
 
